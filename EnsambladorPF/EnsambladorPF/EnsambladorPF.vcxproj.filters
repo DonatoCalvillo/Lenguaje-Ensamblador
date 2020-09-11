@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Source.asm">
+      <Filter>Archivos de origen</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EnsambladorPF.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\spaceMENU.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="controles.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="space.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="spaceMENU.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Naves_Ensamblador.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Naves_Ensamblador2.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="InterfazUNO.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="corazonesDOS.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="corazonesUNO.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="gameover.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\explosion.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\spaceMENU.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\controles.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\space.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\Naves_Ensamblador.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\Naves_Ensamblador2.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\InterfazUNO.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\corazonesDOS.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\corazonesUNO.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\gameover.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\explosionN.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\Vida.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\VidaN.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\BotonV.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="Imagenes\BotonR.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Equs.inc">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="Estructuras.inc">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="Protos.inc">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="libreria.inc">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+  </ItemGroup>
+</Project>
